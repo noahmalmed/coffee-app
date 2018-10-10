@@ -1,0 +1,6 @@
+framework module Pods_FoodaCoffeeTests {
+  umbrella header "Pods-FoodaCoffeeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Freddy (3.0.3)
+
+DEPENDENCIES:
+  - Freddy
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Freddy
+
+SPEC CHECKSUMS:
+  Freddy: 7c62db262a0d0e3b3e2b8b40f2c0cc51e122fbc4
+
+PODFILE CHECKSUM: e8695185d4f6298d799adc199fa79850a6c7fee8
+
+COCOAPODS: 1.5.3

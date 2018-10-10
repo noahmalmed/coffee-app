@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15C14866DA314EB4F4A0F694 /* Pods_FoodaCoffeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A9115D8020310B4D62C04E /* Pods_FoodaCoffeeUITests.framework */; };
 		49885336216942A400DA8706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49885335216942A400DA8706 /* AppDelegate.swift */; };
-		49885338216942A400DA8706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49885337216942A400DA8706 /* ViewController.swift */; };
-		4988533B216942A400DA8706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49885339216942A400DA8706 /* Main.storyboard */; };
 		4988533D216942A600DA8706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4988533C216942A600DA8706 /* Assets.xcassets */; };
 		49885340216942A600DA8706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4988533E216942A600DA8706 /* LaunchScreen.storyboard */; };
 		4988534B216942A600DA8706 /* FoodaCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4988534A216942A600DA8706 /* FoodaCoffeeTests.swift */; };
 		49885356216942A600DA8706 /* FoodaCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49885355216942A600DA8706 /* FoodaCoffeeUITests.swift */; };
+		49885365216947CC00DA8706 /* FourSquareClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49885364216947CC00DA8706 /* FourSquareClient.swift */; };
+		49885369216976A600DA8706 /* FourSquareCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49885368216976A600DA8706 /* FourSquareCategory.swift */; };
+		4988536C216AABC400DA8706 /* FourSquareVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4988536B216AABC400DA8706 /* FourSquareVenue.swift */; };
+		49BBE887216AADE1002A5F67 /* FourSquareLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BBE886216AADE1002A5F67 /* FourSquareLocation.swift */; };
+		49BBE889216AF077002A5F67 /* FourSquareResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BBE888216AF077002A5F67 /* FourSquareResponse.swift */; };
+		49BBE88C216B000C002A5F67 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BBE88A216B000C002A5F67 /* MapViewController.swift */; };
+		49BBE88D216B000C002A5F67 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BBE88B216B000C002A5F67 /* MapViewController.xib */; };
+		49BBE890216C39B9002A5F67 /* MapViewNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BBE88F216C39B9002A5F67 /* MapViewNavigator.swift */; };
+		49BBE894216C3A39002A5F67 /* FCLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BBE893216C3A39002A5F67 /* FCLocationManager.swift */; };
+		E3BCDEC278735529D63C6885 /* Pods_FoodaCoffeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395BF82BCCA906E09578E183 /* Pods_FoodaCoffeeTests.framework */; };
+		F214B305D75211F4DFC80FEA /* Pods_FoodaCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCCD3CE239B7BEB91649829 /* Pods_FoodaCoffee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CCCD3CE239B7BEB91649829 /* Pods_FoodaCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodaCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3759AA6EFB84489272B61B6C /* Pods-FoodaCoffeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodaCoffeeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodaCoffeeUITests/Pods-FoodaCoffeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		395BF82BCCA906E09578E183 /* Pods_FoodaCoffeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodaCoffeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B718CAB7CE223D7B6D3F684 /* Pods-FoodaCoffeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodaCoffeeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodaCoffeeTests/Pods-FoodaCoffeeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		49885332216942A400DA8706 /* FoodaCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodaCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49885335216942A400DA8706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49885337216942A400DA8706 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4988533A216942A400DA8706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4988533C216942A600DA8706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4988533F216942A600DA8706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49885341216942A600DA8706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +59,20 @@
 		49885351216942A600DA8706 /* FoodaCoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodaCoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49885355216942A600DA8706 /* FoodaCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodaCoffeeUITests.swift; sourceTree = "<group>"; };
 		49885357216942A600DA8706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49885364216947CC00DA8706 /* FourSquareClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquareClient.swift; sourceTree = "<group>"; };
+		49885368216976A600DA8706 /* FourSquareCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquareCategory.swift; sourceTree = "<group>"; };
+		4988536B216AABC400DA8706 /* FourSquareVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquareVenue.swift; sourceTree = "<group>"; };
+		49BBE886216AADE1002A5F67 /* FourSquareLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquareLocation.swift; sourceTree = "<group>"; };
+		49BBE888216AF077002A5F67 /* FourSquareResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquareResponse.swift; sourceTree = "<group>"; };
+		49BBE88A216B000C002A5F67 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		49BBE88B216B000C002A5F67 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		49BBE88F216C39B9002A5F67 /* MapViewNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewNavigator.swift; sourceTree = "<group>"; };
+		49BBE893216C3A39002A5F67 /* FCLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCLocationManager.swift; sourceTree = "<group>"; };
+		63458A2C6E7F41A1C7E05E8F /* Pods-FoodaCoffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodaCoffee.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodaCoffee/Pods-FoodaCoffee.release.xcconfig"; sourceTree = "<group>"; };
+		6FEE55AEE44A2D49A934EAE7 /* Pods-FoodaCoffeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodaCoffeeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodaCoffeeUITests/Pods-FoodaCoffeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7523239B47C6D92353E39268 /* Pods-FoodaCoffeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodaCoffeeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodaCoffeeTests/Pods-FoodaCoffeeTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9A99C9494356A660CA46955 /* Pods-FoodaCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodaCoffee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodaCoffee/Pods-FoodaCoffee.debug.xcconfig"; sourceTree = "<group>"; };
+		C2A9115D8020310B4D62C04E /* Pods_FoodaCoffeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodaCoffeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F214B305D75211F4DFC80FEA /* Pods_FoodaCoffee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3BCDEC278735529D63C6885 /* Pods_FoodaCoffeeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C14866DA314EB4F4A0F694 /* Pods_FoodaCoffeeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,8 @@
 				49885349216942A600DA8706 /* FoodaCoffeeTests */,
 				49885354216942A600DA8706 /* FoodaCoffeeUITests */,
 				49885333216942A400DA8706 /* Products */,
+				A558551F1E145EB74CA86167 /* Pods */,
+				E234427DA77B2425A1C28BD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +128,15 @@
 		49885334216942A400DA8706 /* FoodaCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				49BBE88E216C3980002A5F67 /* navigation */,
+				498853632169479600DA8706 /* FourSquareService */,
 				49885335216942A400DA8706 /* AppDelegate.swift */,
-				49885337216942A400DA8706 /* ViewController.swift */,
-				49885339216942A400DA8706 /* Main.storyboard */,
+				49BBE88A216B000C002A5F67 /* MapViewController.swift */,
+				49BBE88B216B000C002A5F67 /* MapViewController.xib */,
 				4988533C216942A600DA8706 /* Assets.xcassets */,
 				4988533E216942A600DA8706 /* LaunchScreen.storyboard */,
 				49885341216942A600DA8706 /* Info.plist */,
+				49BBE893216C3A39002A5F67 /* FCLocationManager.swift */,
 			);
 			path = FoodaCoffee;
 			sourceTree = "<group>";
@@ -125,6 +159,57 @@
 			path = FoodaCoffeeUITests;
 			sourceTree = "<group>";
 		};
+		498853632169479600DA8706 /* FourSquareService */ = {
+			isa = PBXGroup;
+			children = (
+				4988536A216AABAA00DA8706 /* model */,
+				49885364216947CC00DA8706 /* FourSquareClient.swift */,
+				49885368216976A600DA8706 /* FourSquareCategory.swift */,
+			);
+			path = FourSquareService;
+			sourceTree = "<group>";
+		};
+		4988536A216AABAA00DA8706 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4988536B216AABC400DA8706 /* FourSquareVenue.swift */,
+				49BBE886216AADE1002A5F67 /* FourSquareLocation.swift */,
+				49BBE888216AF077002A5F67 /* FourSquareResponse.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		49BBE88E216C3980002A5F67 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				49BBE88F216C39B9002A5F67 /* MapViewNavigator.swift */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		A558551F1E145EB74CA86167 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9A99C9494356A660CA46955 /* Pods-FoodaCoffee.debug.xcconfig */,
+				63458A2C6E7F41A1C7E05E8F /* Pods-FoodaCoffee.release.xcconfig */,
+				3B718CAB7CE223D7B6D3F684 /* Pods-FoodaCoffeeTests.debug.xcconfig */,
+				7523239B47C6D92353E39268 /* Pods-FoodaCoffeeTests.release.xcconfig */,
+				3759AA6EFB84489272B61B6C /* Pods-FoodaCoffeeUITests.debug.xcconfig */,
+				6FEE55AEE44A2D49A934EAE7 /* Pods-FoodaCoffeeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E234427DA77B2425A1C28BD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CCCD3CE239B7BEB91649829 /* Pods_FoodaCoffee.framework */,
+				395BF82BCCA906E09578E183 /* Pods_FoodaCoffeeTests.framework */,
+				C2A9115D8020310B4D62C04E /* Pods_FoodaCoffeeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4988535A216942A600DA8706 /* Build configuration list for PBXNativeTarget "FoodaCoffee" */;
 			buildPhases = (
+				02D60B184F4C5E7CC7940BE1 /* [CP] Check Pods Manifest.lock */,
 				4988532E216942A400DA8706 /* Sources */,
 				4988532F216942A400DA8706 /* Frameworks */,
 				49885330216942A400DA8706 /* Resources */,
+				CA654C4D0F65472B0476DDEE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4988535D216942A600DA8706 /* Build configuration list for PBXNativeTarget "FoodaCoffeeTests" */;
 			buildPhases = (
+				A3E503D14AD905D33E8B49ED /* [CP] Check Pods Manifest.lock */,
 				49885342216942A600DA8706 /* Sources */,
 				49885343216942A600DA8706 /* Frameworks */,
 				49885344216942A600DA8706 /* Resources */,
@@ -167,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49885360216942A600DA8706 /* Build configuration list for PBXNativeTarget "FoodaCoffeeUITests" */;
 			buildPhases = (
+				10853375CB7884E135578639 /* [CP] Check Pods Manifest.lock */,
 				4988534D216942A600DA8706 /* Sources */,
 				4988534E216942A600DA8706 /* Frameworks */,
 				4988534F216942A600DA8706 /* Resources */,
@@ -230,8 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49885340216942A600DA8706 /* LaunchScreen.storyboard in Resources */,
+				49BBE88D216B000C002A5F67 /* MapViewController.xib in Resources */,
 				4988533D216942A600DA8706 /* Assets.xcassets in Resources */,
-				4988533B216942A400DA8706 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +340,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02D60B184F4C5E7CC7940BE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodaCoffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10853375CB7884E135578639 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodaCoffeeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E503D14AD905D33E8B49ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodaCoffeeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA654C4D0F65472B0476DDEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodaCoffee/Pods-FoodaCoffee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Freddy/Freddy.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Freddy.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodaCoffee/Pods-FoodaCoffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4988532E216942A400DA8706 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49885338216942A400DA8706 /* ViewController.swift in Sources */,
+				49885369216976A600DA8706 /* FourSquareCategory.swift in Sources */,
+				49BBE894216C3A39002A5F67 /* FCLocationManager.swift in Sources */,
+				49BBE889216AF077002A5F67 /* FourSquareResponse.swift in Sources */,
 				49885336216942A400DA8706 /* AppDelegate.swift in Sources */,
+				4988536C216AABC400DA8706 /* FourSquareVenue.swift in Sources */,
+				49885365216947CC00DA8706 /* FourSquareClient.swift in Sources */,
+				49BBE890216C39B9002A5F67 /* MapViewNavigator.swift in Sources */,
+				49BBE887216AADE1002A5F67 /* FourSquareLocation.swift in Sources */,
+				49BBE88C216B000C002A5F67 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +464,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		49885339216942A400DA8706 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4988533A216942A400DA8706 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4988533E216942A600DA8706 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,6 +591,7 @@
 		};
 		4988535B216942A600DA8706 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A99C9494356A660CA46955 /* Pods-FoodaCoffee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +609,7 @@
 		};
 		4988535C216942A600DA8706 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63458A2C6E7F41A1C7E05E8F /* Pods-FoodaCoffee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +627,7 @@
 		};
 		4988535E216942A600DA8706 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B718CAB7CE223D7B6D3F684 /* Pods-FoodaCoffeeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +648,7 @@
 		};
 		4988535F216942A600DA8706 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7523239B47C6D92353E39268 /* Pods-FoodaCoffeeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +669,7 @@
 		};
 		49885361216942A600DA8706 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3759AA6EFB84489272B61B6C /* Pods-FoodaCoffeeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +689,7 @@
 		};
 		49885362216942A600DA8706 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FEE55AEE44A2D49A934EAE7 /* Pods-FoodaCoffeeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
